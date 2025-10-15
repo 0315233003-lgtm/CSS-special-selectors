@@ -12,4 +12,14 @@
 }
 
 /* Add your CSS styles below this line */
-
+a:hover {
+ background-color: rgb(243, 152, 119);
+ border-radius: 800px;
+}
+.card::before {
+    border-radius: 800px;
+    content: "Sale";
+    background-color: red;
+    color: white;
+    font-size: 25px;
+}
