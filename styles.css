@@ -1,0 +1,9 @@
+li:hover {
+    background-color: rgb(233, 211, 182);
+    font-size: 30px;
+    cursor: pointer;
+}
+li:active {
+    background-color: rgb(242, 201, 216);
+    font-style: italic;
+}
