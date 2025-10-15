@@ -7,3 +7,23 @@ li:active {
     background-color: rgb(242, 201, 216);
     font-style: italic;
 }
+li::before {
+    content:"💋"
+}
+li::after {
+    content: "☺️"
+}
+li:hover::after {
+    content: "Vote for me!";
+    margin-left: 12px;
+    font-weight: bold;
+    color: deeppink;
+}
+
+li:active::before {
+    content: "✔️"
+}
+
+ul {
+    list-style:none;
+}
